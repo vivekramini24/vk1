@@ -1,0 +1,214 @@
+h1{
+	text-align: center;
+	font-size: 250%;
+	font-family: initial;
+	font-style: italic;
+	
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:10px;
+	margin-right: 25px;
+	margin-left: 25px;
+	
+}
+.container{
+	margin-top: 10%;
+}
+.chicken{
+	width: 500px;
+	background-color:lightgrey;
+	float: right;
+	width: 30%;
+	padding: 10px;
+	border: 3px solid black;
+	top: 50px;
+
+}
+.beaf{
+	width: 500px;
+	background-color: lightgrey;
+	float: right;
+	width: 30%;
+	border: 3px solid black;
+	margin-right: 5%;
+	padding: 10px;
+	height: 100%;
+	
+}
+.sushi{
+	
+	background-color: lightgrey;
+	width: 30%;
+	padding: 0px;
+	border: 3px solid black;
+	padding: 10px;
+	
+}
+.namec{
+	font-style: bold;
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 31%;
+	border-right: none;
+	position: relative;
+	left: 72%;
+	bottom: 38px;
+	background-color: lightcoral;
+	overflow: hidden;
+	display:flex;
+	padding: 5px;
+
+}
+
+
+.names{
+	
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 27%;
+	border-right: none;
+	position: relative;
+	left: 76%;
+	bottom: 38px;
+	background-color: lightyellow;
+	
+	padding: 5px;
+	display:flex;
+	padding: 5px;
+
+
+
+}
+.names{
+	background-color:  lightyellow;
+}
+.nameb{
+	background-color: red;
+	background-color: yellow;
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 27%;
+	border-right: none;
+	position: relative;
+	left: 76%;
+	bottom: 38px;
+	display:flex;
+	padding: 5px;
+}
+
+.bbb{
+	position: relative;
+	bottom: 50px;
+}
+.sss{
+position: relative;
+	bottom: 50px;
+}
+.ccc{
+	position: relative;
+	bottom: 50px;
+
+}
+
+/*@media (min-width: 992px) {
+
+
+}*/
+@media (max-width: 991px) {
+
+	.chicken{
+		width: 45%;
+		margin-right: 5px;
+		
+		
+}
+.beaf{
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 10%;
+	float: right;
+	
+
+	}
+
+.sushi{
+	
+	width: 45%;
+	margin-top: 7%;
+	float
+
+	
+}
+
+.nameb{
+	width: 14.5%;
+	left: 87%;
+}
+	.namec{
+		width: 31%;
+		left: 72%;
+	}
+	.names{
+		width: 31%;
+		left: 72%;
+	}
+
+
+}
+
+
+
+
+         /*************medium size devices*********/
+         @media (max-width: 767px){
+         	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+				float:left;
+				
+				margin-left: 20%;
+				margin-top: 5%;
+				margin-right: 10%;
+			
+			}
+			.namec{
+				box-sizing: border-box;
+				
+				width: 30%;
+				text-align: center;
+				height: auto;
+
+			}
+			.nameb{
+				width: 15%;
+				
+				
+			}
+			.names{
+				width: 30%;
+				text-align: center;
+			}
+			.chicken{
+				width: 80%
+			}
+			.sushi{
+				width: 80%;
+			}
+			.beaf{
+				width: 83%;
+			}
+			.bbb{
+
+			}
+			@media ( max-width: 500PX){
+				.namec{
+					width: 32%;
+				}
+				.nameb{
+					width: 15.9%;
+				}
+			}

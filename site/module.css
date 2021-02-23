@@ -1,0 +1,198 @@
+h1{
+	text-align: center;
+	
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:10px;
+	margin-right: 25px;
+	margin-left: 25px;
+	
+}
+.chicken{
+	width: 500px;
+	background-color: grey;
+	float: right;
+	width: 30%;
+	padding: 10px;
+	border: 3px solid black;
+	top: 50px;
+
+}
+.beaf{
+	width: 500px;
+	background-color: grey;
+	float: right;
+	width: 30%;
+	border: 3px solid black;
+	margin-right: 5%;
+	padding: 10px;
+	height: 100%;
+	
+}
+.sushi{
+	
+	background-color: grey;
+	width: 30%;
+	padding: 0px;
+	border: 3px solid black;
+	padding: 10px;
+	
+}
+.namec{
+	font-style: bold;
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	left: 76%;
+	bottom: 38px;
+	background-color: lightcoral;
+
+}
+
+
+.names{
+	
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	left: 76%;
+	bottom: 38px;
+	background-color: lightyellow;
+	border-bottom: 25px;
+	padding: 5px;
+
+
+}
+.names{
+	background-color:  lightyellow;
+}
+.nameb{
+	background-color: red;
+	background-color: yellow;
+	font-size: 25px;
+	border:2px solid black;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	left: 76%;
+	bottom: 38px;
+}
+
+.bbb{
+	position: relative;
+	bottom: 50px;
+}
+.sss{
+position: relative;
+	bottom: 50px;
+}
+.ccc{
+	position: relative;
+	bottom: 50px;
+
+}
+
+/*@media (min-width: 992px) {
+
+
+}*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.chicken{
+		width: 45%;
+		margin-right: 5px;
+		margin-top: 5%;
+		
+}
+.beaf{
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 10%;
+	float: right;
+	
+
+	}
+
+.sushi{
+	
+	width: 45%;
+	margin-top: 7%;
+	float
+
+	
+}
+
+.nameb{
+	left: 87%;
+}
+	.namec{
+		left: 72%;
+	}
+	.names{
+		left: 72%;
+	}
+
+
+}
+
+
+
+
+         /*************medium size devices*********/
+         @media (max-width: 767px){
+         	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+				float:left;
+				
+				margin-left: 25%;
+				margin-top: 10%;
+			
+			}
+			.col-md-1{
+				width:8.33%;
+			}
+			.col-md-2{
+				width:16.66%;
+			}
+			.col-md-3{
+				width:25%;
+			}
+			.col-md-4{
+				width:33%;
+			}
+			.col-md-5{
+				width:41.66%;
+			}
+			.col-md-6{
+				width:50%;
+			}
+			.col-md-7{
+				width:58.33%;
+			}
+			.col-md-8{
+				width:66.66%;
+			}
+			.col-md-9{
+				width:74.99%;
+			}
+			.col-md-10{
+				width:83.33%;
+			}
+			.col-md-11{
+				width:*91.66%;
+			}
+			.col-md-12{
+				width:100%;
+			}	
+
+			.namec{
+				position: relative;
+				right: 100px;
+			}
+         }
